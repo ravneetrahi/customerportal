@@ -1,0 +1,91 @@
+@import url(http://fonts.googleapis.com/css?family=Nunito:400,300);
+
+.calendar {
+  font-family: 'Nunito', sans-serif;
+}
+
+.event-color {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.external-event {
+  padding: 10px 12px;
+  color: $white;
+}
+
+.external-event:hover {
+  opacity: .8;
+}
+
+.fc-toolbar .fc-state-default {
+  display: inline-block;
+  font-size: 14px;
+  margin-right: 2px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 0 solid transparent;
+  border-radius: 0;
+  background: #9e0b3d none;
+  height: 40px;
+  color: $white;
+  outline: 0;
+  text-shadow: none;
+}
+
+.fc-toolbar .fc-left .fc-today-button {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background: #9e0b3d none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.fc-toolbar .fc-state-active {
+  opacity: .6;
+}
+
+.fc-view-container {
+  background-color: $white;
+}
+
+.fc-view-container .fc-day-grid-event {
+  padding: 6px 8px;
+  background-color: #e1e1e1;
+  color: #000;
+  border: 0;
+  border-radius: 0;
+}
+
+.fc-view-container table thead.fc-head tr td.fc-widget-header table thead tr th.fc-day-header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.fc-view-container .fc-day {
+  padding: 2px;
+}
