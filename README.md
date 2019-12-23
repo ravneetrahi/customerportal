@@ -19,3 +19,7 @@ php artisan migrate
 
 php artisan db:seed
 
+# Modify User table 
+
+Add a field sugar_id that will contain the contact id for the suit crm user
+
